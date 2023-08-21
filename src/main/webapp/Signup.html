@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+	<center>
+<h1 id="en">Enter Your Details</h1>
+<form  action="signup" method="post" enctype="multipart/form-data">
+	<fieldset id="fd">
+	<legend id="le"><h1>Sign up</h1></legend>
+	<table id="tab">
+		<tr>
+			<th>Name :</th>
+			<td><input type="text" name="name" placeholder="Enter your name"></td>
+		</tr>
+		
+		<tr>
+			<th> Mobile :</th>
+			<td><input type="text" name="mob" placeholder="Enter mobile no" required></td>
+		</tr>
+
+		<tr>
+			<th> E-mail :</th>
+			<td><input type="text" name="mail" placeholder="Enter e-mail"></td>
+		</tr>
+
+		<tr>
+			<th> Password :</th>
+			<td><input type="text" name="pass" placeholder="Enter Password" required></td>
+		</tr>
+
+		<tr>
+			<th> Gender :</th>
+			<td>Male<input type="radio" value="male" name="gen">
+			Female<input type="radio" value="female" name="gen"></td>
+		</tr>
+		
+		<tr>
+			<th> Country :</th>
+			<td>
+				<select name="con" id="">
+					<option value="in">india</option>
+					<option value="usa">usa</option>
+					<option value="aus">australia</option>
+					<option value="rus">russia</option>
+			</select>
+			</td>
+		</tr>
+
+		<tr>
+			<th> Date of Birth :</th>
+			<td><input type="date" name="dob"></td>
+		</tr>
+
+		<tr>
+			<th> Picture :</th>
+			<td><input type="file" name="pic"></td>
+		</tr>
+
+		<tr>
+		<td><button>signup</button></td>
+		<td><button>Cancel</button></td>
+		</tr>	
+		
+		
+		
+	</table>
+	</fieldset>
+</form>
+</center>
+</body>
+</html>
